@@ -45,16 +45,4 @@ python train_model.py
 - **Parameters:** 300 estimators, min_samples_split=20, max_depth=10.
 - **Output:** Binary classification (Price Up or Down).
 
-## Expected Results
-- Precision score is calculated to evaluate model accuracy.
-- Graphs display actual vs. predicted closing prices.
-
-## Contributing
-Pull requests are welcome! Please open an issue first to discuss changes.
-
-## License
-MIT License. See `LICENSE` for details.
-
-## Author
-[Your Name] - [Your Contact Info]
 
