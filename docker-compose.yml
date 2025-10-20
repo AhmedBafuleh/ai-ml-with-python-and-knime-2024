@@ -1,0 +1,13 @@
+name: ai-ml-notebook
+services:
+  notebook:
+    build: .
+    container_name: ai-notebook
+    ports:
+      - "8888:8888"
+    # Mount the repo so edits in GitHub Desktop/locally reflect live (safe to keep even with COPY)
+    volumes:
+      - ./:/app
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
